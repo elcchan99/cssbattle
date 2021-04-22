@@ -1,0 +1,67 @@
+<p face>
+<p eyes>
+<p cotton top-bottom>
+<p cotton topleft-topright>
+<p cotton bottomleft-bottomright>
+<p cotton left-right> 
+
+<style> 
+    * {
+        margin: 0;
+        background: #6592cf;
+        color: #6592cf;
+        position: absolute;
+    }
+    body {
+        height: 300px;
+        width: 400px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        background: #243d83;
+    }  
+    [cotton] {
+        height: 50;
+        width: 60;
+        border-radius: 50%;
+    }
+    [top-bottom] {
+        top: 65;
+        box-shadow: 0 120px;
+    }
+    [topleft-topright] {
+        top: 85;
+        left: 130;
+        transform: rotate(-45deg);
+        box-shadow: 0 113px;
+    }
+    [bottomleft-bottomright] {
+        top: 85;
+        right: 130;
+        transform: rotate(45deg);
+        box-shadow: 0 113px;
+    }
+    [left-right] {
+        height: 60;
+        width: 50;
+        top: 120;
+        left: 115;
+        box-shadow: 120px 0;
+    }
+    [eyes] {
+        height: 10;
+        width: 10;
+        top: 130;
+        left: 185;
+        box-shadow: 20px 0;
+        border-radius: 50%;
+    }
+    [face] {
+        height: 50;
+        width: 60;
+        top: 125;
+        background: #243d83;
+        border: 20px solid #6592cf;
+        border-top: 0;
+        border-radius: 0 0 100px 100px;
+    }
