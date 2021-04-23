@@ -1,0 +1,89 @@
+<p ear ear-left>
+<p ear ear-right>
+<p face>
+<p eyes>
+<p mouth>
+<p nose nose-left>
+<p nose nose-right>
+<style>
+    * {
+        margin: 0
+    }
+    
+    body {
+        background: #191919;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        height: 300;
+        width: 400;
+    }
+    
+    p {
+        position: absolute;
+    }
+    
+    [ear] {
+        height: 10;
+        width: 20;
+        background: #000;
+        border: 5px solid #FE5F55;
+        border-radius: 50%
+    }
+
+    [ear-left] {
+        transform: rotate(45deg);
+        top: 75;
+        left: 145
+    }
+    
+    [ear-right] {
+        transform: rotate(-45deg);
+        top: 75;
+        left: 225
+    }
+    
+    [face] {
+        height: 100;
+        width: 130;
+        background: #FE5F55;
+        top: 75;
+        border-radius: 60px 60px 0 0
+    }
+    
+    [eyes] {
+        height: 10;
+        width: 10;
+        background: #000;
+        top: 125;
+        left: 160;
+        border-radius: 50%;
+        box-shadow: 70px 0
+    }
+    
+    [mouth] {
+        width: 150;
+        height: 100;
+        background: #A64942;
+        top: 145;
+        border-radius: 54px 54px 43px 43px;
+    }
+    
+    [nose] {
+        width: 30;
+        height: 20;
+        background: #000;
+        border-radius: 50%;
+    }
+    
+    [nose-left] {
+        top: 170;
+        left: 145;
+        transform: rotate(-45deg);
+    }
+    
+    [nose-right] {
+        top: 170;
+        left: 225;
+        transform: rotate(45deg);
+    }
