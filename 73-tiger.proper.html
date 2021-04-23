@@ -1,0 +1,91 @@
+<p ears>
+<div face>
+    <p top>
+    <p eyes>
+    <p beard>
+    <p mouth>
+    <p nose>
+<style>
+    * {
+        margin: 0;
+        position: absolute
+    }
+
+    body {
+        background: #F3AC3C;
+        position: relative;
+        width: 400;
+        height: 300;
+    }
+
+    [ears] {
+        height: 40;
+        width: 40;
+        background: #1A4341;
+        border-radius: 50%;
+        border: 10px solid #998235;
+        left: 115;
+        top: 65;
+        -webkit-box-reflect: right 50px
+    }
+
+    [face] {
+        height: 150;
+        width: 150;
+        background: #998235;
+        border-radius: 50%;
+        border-bottom-left-radius: 40%;
+        border-bottom-right-radius: 40%;
+        top: 75;
+        left: 125;
+        overflow: hidden
+    }
+    
+    [top] {
+        height: 30;
+        width: 30;
+        background: #1A4341;
+        transform: rotate(45deg);
+        top: -10;
+        left: 60
+    }
+
+    [eyes] {
+        height: 20;
+        width: 20;
+        background: #1A4341;
+        color: #1A4341;
+        border-radius: 50%;
+        top: 60;
+        left: 25;
+        box-shadow: 80px 0
+    }
+
+    [beard] {
+        height: 40;
+        width: 100;
+        background: #FFF;
+        border-radius: 10px 10px 30px 30px;
+        bottom: 15;
+        left: 25
+    }
+
+    [mouth] {
+        height: 10;
+        width: 20;
+        background: #FFF;
+        border-radius: 0 0 20px 20px;
+        border: 10px solid #1A4341;
+        border-top: 0;
+        left: 40;
+        top: 105;
+        -webkit-box-reflect: right -10px
+    }
+
+    [nose] {
+        width: 10;
+        height: 20;
+        background: #1A4341;
+        bottom: 45;
+        left: 70
+    }
